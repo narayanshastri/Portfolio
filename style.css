@@ -1,0 +1,55 @@
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            border: 5px dashed green solid;
+            height: 26rem;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid gray;
+            margin: 1rem;
+        }
+
+        fieldset legend {
+            border: 1px green solid;
+            background: gray;
+            color: aliceblue;
+        }
+
+        dd {}
+
+        fieldset div {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+        }
+
+        button {
+            width: 22vb;
+            border-radius: 1rem;
+            margin-top: 20px;
+            padding: 1rem;
+            color: aliceblue;
+            background-color: dodgerblue;
+
+        }
+
+        button:hover {
+            width: 22vb;
+            border-radius: 1rem;
+            border-color: rgb(0, 0, 55);
+            margin-top: 20px;
+            padding: 1rem;
+            color: aliceblue;
+            background-color: green;
+            transition: 700ms;
+        }
+
+
+
+        .projectDescription {
+            width: 80%;
+        }
